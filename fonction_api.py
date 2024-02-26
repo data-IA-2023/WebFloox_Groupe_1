@@ -25,3 +25,6 @@ def get_movie_synopsis(tmdb_id):
             return data['overview']
     return None
 
+poster_url = get_movie_poster_url('tt2380301')
+
+print(poster_url)
